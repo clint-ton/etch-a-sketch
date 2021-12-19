@@ -1,10 +1,13 @@
 body {
+    font-family: 'Roboto';
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
     background-color: #ededed;
 }
+
+
 
 #container {
     display: flex;
@@ -31,7 +34,6 @@ body {
 
 h1 {
     font-size: 3em;
-    font-family: 'Roboto';
     color: #333333;
 }
 
@@ -41,4 +43,16 @@ h1 {
 
 .buttons {
     display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    height: 10%;
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1em;
+    font-weight: 700;
 }

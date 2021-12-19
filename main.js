@@ -17,8 +17,17 @@ function addMouseOver(node) {
     })
 }
 
+function clearCell (node) {
+    node.classList.remove('colored');
+}
+
 const container = document.querySelector('#container');
 
+const clearBtn = document.querySelector('#clear-btn');
+
+clearBtn.addEventListener('click', function() {
+    location.reload();
+});
 
 
 makeGrid(16);
