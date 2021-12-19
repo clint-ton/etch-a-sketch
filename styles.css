@@ -46,6 +46,7 @@ h1 {
     width: 30%;
     flex-direction: column;
     justify-content: center;
+    gap: 32px;
 }
 
 button {
@@ -55,4 +56,10 @@ button {
     border-radius: 12px;
     font-size: 1em;
     font-weight: 700;
+    flex-shrink: 0;
 }
+
+input {
+    width: 30vh;
+}
+
