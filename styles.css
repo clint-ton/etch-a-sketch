@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #ededed;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 75vh;
+    margin-left: 64px;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+}
+
+.box {
+    background-color: white;
+    flex-grow: 1;
+
+}
+
+.coloured {
+    background-color: #333333;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Roboto';
+    color: #333333;
+}
+
+.content {
+    display: flex;
+}
+
+.buttons {
+    display: flex;
+}
